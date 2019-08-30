@@ -23,9 +23,13 @@ repositories {
     jcenter()
 }
 
+val igniteVersion = "2.7.5"
+
 dependencies {
     // This dependency is used by the application.
     implementation("com.google.guava:guava:27.1-jre")
+    implementation("org.apache.ignite:ignite-core:$igniteVersion")
+    implementation("org.apache.ignite:ignite-indexing:$igniteVersion")
 
     // Use the latest Groovy version for Spock testing
     testImplementation("org.codehaus.groovy:groovy-all:2.5.6")
