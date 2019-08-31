@@ -1,0 +1,3 @@
+[submodule "ediadejava-ignite-demo"]
+	path = ediadejava-ignite-demo
+	url = git@github.com:nubunto/ediadejava-ignite-demo.git
